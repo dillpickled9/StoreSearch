@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  StoreSearch
+
+  Created by Dylan DeSantis on 3/3/23.
+  
+*/
+"ARTIST_NAME_LABEL_FORMAT" = "%1$@ (%2$@)";
+/* Localized kind: Album */
+"Album" = "Album";
+/* Localized kind: Software */
+"App" = "App";
+/* Localized kind: Audio Book */
+"Audio Book" = "Audio Book";
+/* Localized kind: Book */
+"Book" = "Book";
+
+"Free" = "Free";
+/* Localized kind: E-Book */
+"E-Book" = "E-Book";
+/* Localized kind: Feature Movie */
+"Movie" = "Movie";
+/* Localized kind: Music Video */
+"Music Video" = "Music Video";
+/* Localized kind: Podcast */
+"Podcast" = "Podcast";
+/* Localized kind: Song */
+"Song" = "SUPER HIT!";
+/* Search results: Nothing Found */
+"Nothing Found" = "Nothing Found";
+/* Alert OK button title */
+"OK" = "OK";
+/* Localized kind: Podcast */
+"Podcast" = "Podcast";
+/* Localized kind: Song */
+"Song" = "Song";
+/* Network error message */
+"There was an error accessing the iTunes Store. Please try again." = "There was an error accessing the iTunes Store. Please try again.";
+/* Localized kind: TV Episode */
+"TV Episode" = "TV Episode";
+/* Artist name: Unknown */
+"Unknown" = "Unknown";
+/* Network error Alert title */
+"Whoops..." = "Whoops...";

@@ -29,16 +29,21 @@ class SearchResultCell: UITableViewCell {
 
   // MARK: - Helper Methods
   func configure(for result: SearchResult) {
-    nameLabel.text = result.name
+      nameLabel.text = result.name
 
-    if result.artist.isEmpty {
-      artistNameLabel.text = "Unknown"
-    } else {
-      artistNameLabel.text = String(format: "%@ (%@)", result.artist, result.type)
+      if result.artist.isEmpty {
+        artistNameLabel.text = NSLocalizedString("Unknown", comment: "Artist name: Unknown")
+      } else {
+        artistNameLabel.text = String(
+          format: NSLocalizedString(
+            "ARTIST_NAME_LABEL_FORMAT",
+            comment: "Format for artist name"),
+          result.artist,
+          result.type)
+      }
+      artworkImageView.image = UIImage(systemName: "square")
+      if let smallURL = URL(string: result.imageSmall) {
+        downloadTask = artworkImageView.loadImage(url: smallURL)
+      }
     }
-    artworkImageView.image = UIImage(systemName: "square")
-    if let smallURL = URL(string: result.imageSmall) {
-      downloadTask = artworkImageView.loadImage(url: smallURL)
-    }
-  }
 }

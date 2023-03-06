@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  StoreSearch
+
+  Created by Dylan DeSantis on 3/3/23.
+  
+*/
+"Album" = "Album";
+"App" = "App";
+"Audio Book" = "Audioboek";
+"Book" = "Boek";
+"E-Book" = "E-Boek";
+"Movie" = "Film";
+"Music Video" = "Videoclip";
+"Podcast" = "Podcast";
+"Song" = "Liedje";
+"TV Episode" = "TV serie";
+"Nothing Found" = "Niets gevonden";
+"There was an error reading from the iTunes Store. Please try again." = "Er ging iets fout bij het communiceren met de iTunes winkel. Probeer het nog eens.";
+"Unknown" = "Onbekend";
+"Whoops..." = "Foutje...";
+/* Format for artist name label */
+"ARTIST_NAME_LABEL_FORMAT" = "%2$@ van %1$@";
